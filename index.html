@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="app">
+        <h1>Focus Timer</h1>
+        <p class="subtitle">Stay focused. Take it one session at a time.</p>
+
+        <div class="timer-card">
+            <div id="mode">Focus Session</div>
+
+            <div id="timer">25:00</div>
+
+            <div class="buttons">
+                <button id="startBtn">Start</button>
+                <button id="pauseBtn">Pause</button>
+                <button id="resetBtn">Reset</button>
+            </div>
+        </div>
+
+        <div class="stats">
+            <div>
+                <strong id="sessions">0</strong>
+                <span>Sessions</span>
+            </div>
+
+            <div>
+                <strong id="minutes">0</strong>
+                <span>Minutes</span>
+            </div>
+        </div>
+
+        <button id="breakBtn" class="break-button">
+            Start 5-Minute Break
+        </button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
